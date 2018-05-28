@@ -1,11 +1,30 @@
+WEBPACK Installation on your own Project
  
- 
- yarn run build
- 
- yarn add style-loader css-loader
 
  https://webpack.js.org/guides/asset-management/
 
  https://webpack.js.org/guides/hot-module-replacement/
+ 
+1. change to your folder with    cd/ [project-name]
+2. input these steps
 
+3. yarn -v (Version installed) or install yarn first
+    https://yarnpkg.com/lang/en/docs/install/#debian-stable
+
+ yarn add style-loader css-loader
+ yarn add webpack
  yarn add webpack-dev-server
+ yarn add webpack-cli
+
+ bundle.js and all html files should always be in the dist folder .
+ under ./src css files have to be inside the 'styles folder' 
+            and all js files in the 'js folder'
+ 
+ install webpack.config.js (copy this file. Probably you should adjust the path )
+ images are always in the dist folder
+ 
+ yarn run build
+ 
+ yarn run start
+ 
+ 
