@@ -1,5 +1,11 @@
  
  
+ yarn run build
+ 
  yarn add style-loader css-loader
 
  https://webpack.js.org/guides/asset-management/
+
+ https://webpack.js.org/guides/hot-module-replacement/
+
+ yarn add webpack-dev-server
